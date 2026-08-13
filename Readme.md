@@ -68,6 +68,14 @@ The dataset used in this work can be downloaded via the following cloud drive li
 
 ![Framework Overview](dataset2.png)
 
+
+## ✨ RefineTool
+
+
+The PVPSAM we proposed follows a two-stage training strategy and since its second stage can receive contour-level annotations as prompts to guide the SAM to obtain target-level segmentation results, it could be used as an effective annotation refinement tool to refine the current RSI-based PV area extraction dataset, thus reducing the workload pressure of object-level annotation. To verify the advantages of our model in generalization, we performed label refinement on several contour-level annotated PV region extraction datasets based on the proposed PVRefineTool.
+
+**Below are several visualization examples on the [dataset]([https://arxiv.org/abs/xxxx.xxxxx](https://essd.copernicus.org/articles/13/5389/2021/)).**
+
 ## 🙏 Acknowledgements
 
 
