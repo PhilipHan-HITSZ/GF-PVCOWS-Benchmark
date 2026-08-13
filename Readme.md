@@ -80,6 +80,9 @@ The PVPSAM we proposed follows a two-stage training strategy and since its secon
 
 ![Framework Overview](PVRefine.png)
 
+- **Weights Download link**: [https://pan.baidu.com/s/1d77sBMHHHT6BkWpo88QywA?pwd=qevx]
+
+  
 ## 🙏 Acknowledgements
 
 
