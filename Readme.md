@@ -85,6 +85,15 @@ The PVPSAM we proposed follows a two-stage training strategy and since its secon
   
 ## 🙏 Acknowledgements
 
-
-
+- [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) —
+  this project uses SAM's image encoder, prompt encoder, and mask decoder
+  architecture, along with its model checkpoint loading utilities
+  (`sam_model_registry`). Their repository provides the inference code,
+  pretrained checkpoints, and example notebooks that this work builds on.
+- [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) — for adapting
+  SAM to the medical imaging domain and inspiring the fine-tuning /
+  inference approach used here.
+- [qubvel-org/segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) —
+  semantic segmentation models with 500+ pretrained convolutional and
+  transformer-based backbones.
 
