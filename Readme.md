@@ -1,7 +1,7 @@
 # PVPSAM: Method and Benchmark for Weakly Supervised Object-level Photovoltaic Panels Extraction in Remote Sensing Imagery
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Dataset](https://pan.baidu.com/s/1ahEgDsb_M1sNygPd-buJbA?pwd=f835)](link-to-dataset)
+[![Dataset](https://img.shields.io/badge/Dataset-Baidu%20Drive-green)](https://pan.baidu.com/s/1ahEgDsb_M1sNygPd-buJbA?pwd=f835)
 
 > Submitted to IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
 
@@ -67,6 +67,8 @@ The dataset used in this work can be downloaded via the following cloud drive li
 - **Dataset description**: We collected a total of 3,308 GF-1 PMS, 17,533 GF-2 PMS, and 1,090 GF-6 PMS scenes. All images were acquired between 2021 and 2022, are cloud-free, and cover mainland China. This dataset was used to train and evaluate the proposed detection algorithm. We organized the dataset into thousands of image patches with varying resolutions, environments, shape and lighting conditions. All integrated samples underwent multiple rounds of visual inspection and manual correction to ensure annotation quality. For each image, we provide both contour-level and object-level annotations to support research on weakly supervised segmentation. 
 
 ![Framework Overview](dataset2.png)
+
+**Compared with existing PV segmentation datasets, the proposed GF‑PVCOWS dataset is more complex. It supports both contour‑level and object‑level annotations, facilitating the validation of more diverse remote sensing algorithms.**
 
 
 ## ✨ RefineTool
