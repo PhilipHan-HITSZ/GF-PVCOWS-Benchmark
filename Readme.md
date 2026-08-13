@@ -1,7 +1,7 @@
 # PVPSAM: Method and Benchmark for Weakly Supervised Object-level Photovoltaic Panels Extraction in Remote Sensing Imagery
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Dataset](https://img.shields.io/badge/Dataset-网盘下载-green)](填写数据集网盘链接)
+[![Dataset](https://pan.baidu.com/s/1ahEgDsb_M1sNygPd-buJbA?pwd=f835)]()
 
 > IEEE JSTARS
 
@@ -19,9 +19,7 @@ In recent years, the rapid and accurate extraction of photovoltaic (PV) footprin
 
 ## 🖼️ Overview
 
-```
-![框架图](assets/framework.png)
-```
+![Framework Overview](model.png)
 
 ## 📊 Results
 
@@ -68,19 +66,10 @@ The dataset used in this work can be downloaded via the following cloud drive li
 - **Extraction code**: [f835]
 - **Dataset description**: We collected a total of 3,308 GF-1 PMS, 17,533 GF-2 PMS, and 1,090 GF-6 PMS scenes. All images were acquired between 2021 and 2022, are cloud-free, and cover mainland China. This dataset was used to train and evaluate the proposed detection algorithm. We organized the dataset into thousands of image patches with varying resolutions, environments, shape and lighting conditions. All integrated samples underwent multiple rounds of visual inspection and manual correction to ensure annotation quality. For each image, we provide both contour-level and object-level annotations to support research on weakly supervised segmentation. 
 
+![Framework Overview](dataset2.png)
+
+## 🙏 Acknowledgements
 
 
-## 🙏 致谢 (Acknowledgements)
 
-感谢 XXX 提供的支持/代码参考等（可选）。
 
-## 📮 联系方式 (Contact)
-
-如有问题，欢迎联系：
-
-- 邮箱：填写邮箱
-- Issues：欢迎在本仓库提 Issue
-
-## 📄 License
-
-本项目遵循 [MIT License](LICENSE)（或其他协议，请自行修改）。
